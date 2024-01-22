@@ -145,3 +145,27 @@ img{
   text-transform: uppercase;
   margin-top: calc(var(--separacion) / 2 );
 }
+
+/**Sobre TechPro**/
+.sobre-tech{
+  background-image:linear-gradient(to bottom, transparent 50%, var(--primario) 0%), url(../img/imagen-mujer.jpg) ;
+}
+.sobre-tech-grid{
+  display: grid;
+  grid-template-rows: repeat(2, 40rem);
+  row-gap: 2rem;
+}
+.texto-sobre-tech{
+  grid-row: 2 / 3;
+  color: var(--blanco);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.texto-sobre-tech h2{
+  font-size: 3rem;
+}
+.texto-sobre-tech p{
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
